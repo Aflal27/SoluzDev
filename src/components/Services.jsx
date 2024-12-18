@@ -21,11 +21,11 @@ export default function Services() {
 
   return (
     <div>
-      <div className="flex flex-col items-center space-y-1">
-        <h1 className=" text-2xl md:text-4xl font-serif font-semibold text-gray-700">
+      <div className="flex flex-col items-center text-center mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
           Services & Prices
         </h1>
-        <p className=" text-xs px-2 md:p-0 md:text-md text-gray-500">
+        <p className="text-gray-600 text-sm md:text-base max-w-xl">
           A website wireframe, also known as a page schematic or screen
           blueprint,
         </p>

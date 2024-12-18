@@ -50,7 +50,7 @@ export default function Reviews() {
   }, []);
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 ">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-12">

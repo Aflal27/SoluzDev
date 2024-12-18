@@ -1,3 +1,4 @@
+import Portfolio from "@/components/Portfolio";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Thumbnail from "@/components/Thumbnail";
@@ -17,6 +18,10 @@ export default function Home() {
 
         <div className="mt-[200px]">
           <Reviews />
+        </div>
+
+        <div className="mt-[200px]">
+          <Portfolio />
         </div>
       </div>
     </div>
