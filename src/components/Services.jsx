@@ -57,7 +57,6 @@ export default function Services() {
                   640: { slidesPerView: 2, spaceBetween: 20 },
                   768: { slidesPerView: 2, spaceBetween: 20 },
                   1024: { slidesPerView: 3, spaceBetween: 20 },
-                  1440: { slidesPerView: 3, spaceBetween: 20 },
                 }}
                 navigation>
                 {pickService === "Web Development" &&
