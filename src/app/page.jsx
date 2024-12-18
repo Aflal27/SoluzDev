@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Commitment from "@/components/Commitment";
+import Founters from "@/components/Founters";
 import Portfolio from "@/components/Portfolio";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
@@ -32,6 +33,10 @@ export default function Home() {
 
         <div className="mt-[200px]">
           <Commitment />
+        </div>
+
+        <div className="mt-[200px]">
+          <Founters />
         </div>
       </div>
     </div>
