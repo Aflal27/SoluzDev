@@ -5,6 +5,7 @@ import Portfolio from "@/components/Portfolio";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Thumbnail from "@/components/Thumbnail";
+import Why from "@/components/Why";
 import React from "react";
 
 export default function Home() {
@@ -37,6 +38,10 @@ export default function Home() {
 
         <div className="mt-[200px]">
           <Founters />
+        </div>
+
+        <div className="mt-[200px]">
+          <Why />
         </div>
       </div>
     </div>

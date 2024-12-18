@@ -47,7 +47,7 @@ export default function Services() {
         </div>
 
         {/* Price Cards */}
-        <div className="w-full overflow-hidden max-w-4xl">
+        <div className="w-full overflow-hidden ">
           <div className="">
             {isClient && (
               <Swiper
