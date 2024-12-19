@@ -1,227 +1,49 @@
 export const WebDevolopment = [
   {
-    name: "Basic Business Website",
-    price: "30,000",
+    name: "Basic",
+    price: "27,000",
     description:
       "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
     plan: [
-      "5-page responsive website",
+      "Custom Responsive Website",
       "Mobile-friendly design",
       "Contact form integration",
-      "Basic SEO optimization",
+      "SEO optimization",
+      "Free hosting",
     ],
-    cateogry: "Web Devolopment",
   },
   {
-    name: "Basic Business Website",
-    price: "30,000",
+    name: "standard",
+    price: "57,000",
     description:
       "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
     plan: [
-      "5-page responsive website",
+      "Custom Responsive Website",
+      "Uploade Content",
       "Mobile-friendly design",
       "Contact form integration",
-      "Basic SEO optimization",
+      "Include Admin Panel",
+      "SEO optimization",
     ],
-    cateogry: "Web Devolopment",
   },
   {
-    name: "Basic Business Website",
-    price: "30,000",
+    name: "premium",
+    price: "79,000",
     description:
       "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
     plan: [
-      "5-page responsive website",
+      "Custom Responsive Website",
+      "Uploade Content",
       "Mobile-friendly design",
+      "Include Admin Panel",
       "Contact form integration",
-      "Basic SEO optimization",
+      "SEO optimization",
+      "Payment Getway Integration ",
+      "High Customisation",
     ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Web Devolopment",
   },
 ];
 export const UIUX = [
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UIUX",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UIUX",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UIUX",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UIUX",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UI / UX",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UI / UX",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "UI / UX",
-  },
   {
     name: "Basic Business Website",
     price: "30,000",
@@ -301,96 +123,5 @@ export const MobileApplication = [
       "Basic SEO optimization",
     ],
     cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "MobileApplication",
-  },
-  {
-    name: "Basic Business Website",
-    price: "30,000",
-    description:
-      "Perfect for small businesses and startups, Establish your online presence quickly and affordably",
-    plan: [
-      "5-page responsive website",
-      "Mobile-friendly design",
-      "Contact form integration",
-      "Basic SEO optimization",
-    ],
-    cateogry: "Mobile Application",
   },
 ];

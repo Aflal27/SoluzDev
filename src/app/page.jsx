@@ -22,7 +22,7 @@ export default function Home() {
           <Services />
         </div>
 
-        <div className="mt-[200px]">
+        <div className="mt-[250px]">
           <Reviews />
         </div>
 

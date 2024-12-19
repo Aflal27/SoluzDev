@@ -31,9 +31,9 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="w-full flex flex-col lg:flex-row gap-10 p-10">
+      <div className="w-[100%] flex flex-col lg:flex-row gap-5 p-10">
         {/* Services */}
-        <div className="flex flex-col gap-4 w-full lg:w-[280px] bg-white p-2 shadow-md rounded-md">
+        <div className=" w-full lg:w-[20%] h-fit flex flex-col gap-4 bg-white p-2 shadow-md rounded-md">
           {services.map((service, index) => (
             <p
               onClick={() => setPickService(service)}
@@ -47,16 +47,17 @@ export default function Services() {
         </div>
 
         {/* Price Cards */}
-        <div className="w-full overflow-hidden ">
+        <div className=" w-full lg:w-[80%] overflow-hidden ">
           <div className="">
             {isClient && (
               <Swiper
                 modules={[Navigation]}
                 slidesPerView={1}
+                spaceBetween={10}
                 breakpoints={{
-                  640: { slidesPerView: 2, spaceBetween: 20 },
-                  768: { slidesPerView: 2, spaceBetween: 20 },
-                  1024: { slidesPerView: 3, spaceBetween: 20 },
+                  640: { slidesPerView: 2, spaceBetween: 0 },
+                  768: { slidesPerView: 2, spaceBetween: 0 },
+                  1024: { slidesPerView: 3, spaceBetween: 0 },
                 }}
                 navigation>
                 {pickService === "Web Development" &&
