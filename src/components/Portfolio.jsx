@@ -18,14 +18,14 @@ export default function Portfolio() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
           Portfolio
         </h1>
-        <p className="text-gray-600 text-sm md:text-base max-w-2xl">
+        <p className="text-gray-600 text-sm md:text-base max-w-2xl p-3">
           Crafting responsive and user-friendly websites tailored to client
           needs. Specializing in modern web technologies to deliver exceptional
           results.
         </p>
       </div>
 
-      <div className=" max-w-6xl mx-auto">
+      <div className=" max-w-6xl mx-auto p-3">
         {isClient && (
           <Swiper
             modules={[Autoplay]}

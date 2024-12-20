@@ -21,7 +21,7 @@ export default function Contect() {
           Get in touch
         </span>
 
-        <span className="text-blue-300 text-5xl font-semibold">Contact me</span>
+        <span className="text-blue-300 text-5xl font-semibold">Contact us</span>
       </div>
 
       {/* Right */}

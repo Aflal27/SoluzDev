@@ -7,7 +7,7 @@ export default function About() {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
           About Us
         </h1>
-        <p className="text-gray-600 text-sm md:text-base leading-relaxed md:leading-loose max-w-4xl">
+        <p className="text-gray-600 text-sm md:text-base leading-relaxed md:leading-loose max-w-4xl p-3">
           Welcome to SoluzDev, a dynamic tech startup from Sri Lanka with over 3
           years of experience delivering exceptional digital solutions. We
           specialize in mobile app development, website and web app development,

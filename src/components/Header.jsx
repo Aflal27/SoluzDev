@@ -4,12 +4,14 @@ import { Link } from "react-scroll";
 
 export default function Header() {
   return (
-    <div className="shadow-md z-10 bg-gradient-to-r from-white via-blue-200 to-blue-300 p-4 flex items-center justify-between rounded-b-xl">
+    <div className="shadow-md z-10 bg-gradient-to-r from-white  via-blue-200 to-blue-300 p-4 flex items-center justify-between rounded-b-xl">
       {/* Logo */}
       <div title="Logo">
-        <p className="text-xl font-bold cursor-pointer hover:text-blue-500 transition">
-          Logo
-        </p>
+        <img
+          className="w-[150px] lg:w-[180px]"
+          src="./images/logo.png"
+          alt="SoluzDev"
+        />
       </div>
 
       {/* Navigation Menu */}
