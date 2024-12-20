@@ -31,7 +31,7 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-5">
+      <div className="flex flex-col lg:flex-row gap-5 ">
         {/* Services */}
         <div className="w-full lg:w-[20%] h-fit flex flex-col gap-4 bg-white p-4 shadow-md rounded-md">
           {services.map((service, index) => (

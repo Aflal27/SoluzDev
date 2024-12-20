@@ -4,6 +4,7 @@ import Contect from "@/components/Contect";
 import Footer from "@/components/Footer";
 
 import Founters from "@/components/Founters";
+import Header from "@/components/Header";
 import Portfolio from "@/components/Portfolio";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
@@ -15,6 +16,9 @@ export default function Home() {
   return (
     <div className="  w-[100vw] h-[100vh]">
       <div className="">
+        <div className="">
+          <Header />
+        </div>
         <div className="">
           <Thumbnail />
         </div>

@@ -4,9 +4,9 @@ import { Link } from "react-scroll";
 
 export default function Header() {
   return (
-    <div className="shadow-md z-10 bg-gradient-to-r from-white  via-blue-200 to-blue-300 p-4 flex items-center justify-between rounded-b-xl">
+    <div className="w-full shadow-md z-10 bg-gradient-to-r from-white  via-blue-200 to-blue-300 p-4 flex items-center justify-between rounded-b-xl">
       {/* Logo */}
-      <div title="Logo">
+      <div className=" ml-8" title="Logo">
         <img
           className="w-[150px] lg:w-[180px]"
           src="./images/logo.png"
@@ -15,7 +15,7 @@ export default function Header() {
       </div>
 
       {/* Navigation Menu */}
-      <div className="flex items-center gap-3">
+      <div className=" mr-8 flex items-center gap-3">
         <div className="hidden md:flex items-center gap-4">
           <Link
             className="cursor-pointer hover:text-blue-500 transition"

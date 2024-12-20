@@ -20,7 +20,7 @@ export default function About() {
           your trusted partner for turning ideas into impactful digital
           experiences.
         </p>
-        <p className=" mt-3">
+        <p className=" mt-3 px-3">
           Your vision, our expertise - together, we create success.
         </p>
       </div>

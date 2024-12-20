@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
+
 import WhatsAppChat from "@/components/WhatsAppChat";
 
 export const metadata = {
@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={` antialiased bg-slate-100  `}>
-        <Header />
         {children}
         <WhatsAppChat />
       </body>
