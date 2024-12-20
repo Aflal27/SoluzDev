@@ -6,10 +6,10 @@ import { Link } from "react-scroll";
 export default function Thumbnail() {
   return (
     <div>
-      <div className="flex flex-col-reverse md:flex-row mt-[130px] mx-[50px]">
+      <div className="flex flex-col-reverse md:flex-row items-center mt-[50px] md:mt-[130px] md:p-10 ">
         {/* thumb01 */}
-        <div className=" flex-1">
-          <div className=" flex flex-col gap-5">
+        <div className=" flex-1 mt-10 md:mt-0">
+          <div className=" flex flex-col gap-5 mx-[20px]">
             <div className=" text-gray-800 space-y-2">
               <p className=" text-2xl md:text-5xl font-serif">
                 Innovative Software
@@ -42,7 +42,9 @@ export default function Thumbnail() {
         </div>
 
         {/* thumb02 */}
-        <div className=" flex-1">Video</div>
+        <div className=" flex-1 ">
+          <video className="" autoPlay loop muted src="./videos/v1.mp4"></video>
+        </div>
       </div>
     </div>
   );
