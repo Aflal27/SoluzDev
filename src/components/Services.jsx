@@ -12,7 +12,6 @@ export default function Services() {
   const services = ["Web Development", "UI / UX", "Mobile Application"];
   const [isClient, setIsClient] = useState(false);
   const [pickService, setPickService] = useState("Web Development");
-  console.log(pickService);
 
   // Ensure Swiper runs only on the client side
   useEffect(() => {
@@ -20,7 +19,8 @@ export default function Services() {
   }, []);
 
   return (
-    <div>
+    <div id="Price" className="py-12 px-4">
+      {/* Section Heading */}
       <div className="flex flex-col items-center text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
           Services & Prices
@@ -31,15 +31,15 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="w-[100%] flex flex-col lg:flex-row gap-5 p-10">
+      <div className="flex flex-col lg:flex-row gap-5">
         {/* Services */}
-        <div className=" w-full lg:w-[20%] h-fit flex flex-col gap-4 bg-white p-2 shadow-md rounded-md">
+        <div className="w-full lg:w-[20%] h-fit flex flex-col gap-4 bg-white p-4 shadow-md rounded-md">
           {services.map((service, index) => (
             <p
-              onClick={() => setPickService(service)}
               key={index}
+              onClick={() => setPickService(service)}
               className={`bg-blue-100 p-3 rounded-md cursor-pointer hover:bg-blue-200 transition ${
-                pickService === service && " bg-blue-300"
+                pickService === service && "bg-blue-300"
               }`}>
               {service}
             </p>
@@ -47,42 +47,44 @@ export default function Services() {
         </div>
 
         {/* Price Cards */}
-        <div className=" w-full lg:w-[80%] overflow-hidden ">
-          <div className="">
-            {isClient && (
-              <Swiper
-                modules={[Navigation]}
-                slidesPerView={1}
-                spaceBetween={10}
-                breakpoints={{
-                  640: { slidesPerView: 2, spaceBetween: 0 },
-                  768: { slidesPerView: 2, spaceBetween: 0 },
-                  1024: { slidesPerView: 3, spaceBetween: 0 },
-                }}
-                navigation>
-                {pickService === "Web Development" &&
-                  WebDevolopment.map((item, index) => (
-                    <SwiperSlide key={index}>
-                      <Card data={item} />
-                    </SwiperSlide>
-                  ))}
+        <div className="w-full lg:w-[80%]">
+          {isClient && (
+            <Swiper
+              modules={[Navigation]}
+              slidesPerView={1}
+              spaceBetween={20}
+              breakpoints={{
+                640: { slidesPerView: 1, spaceBetween: 20 }, // Mobile
+                768: { slidesPerView: 2, spaceBetween: 20 }, // Tablet
+                1024: { slidesPerView: 3, spaceBetween: 30 }, // Laptop & Desktop
+              }}
+              navigation
+              className="w-full">
+              {/* Web Development */}
+              {pickService === "Web Development" &&
+                WebDevolopment.map((item, index) => (
+                  <SwiperSlide key={index}>
+                    <Card data={item} />
+                  </SwiperSlide>
+                ))}
 
-                {pickService === "Mobile Application" &&
-                  MobileApplication.map((item, index) => (
-                    <SwiperSlide key={index}>
-                      <Card data={item} />
-                    </SwiperSlide>
-                  ))}
+              {/* Mobile Application */}
+              {pickService === "Mobile Application" &&
+                MobileApplication.map((item, index) => (
+                  <SwiperSlide key={index}>
+                    <Card data={item} />
+                  </SwiperSlide>
+                ))}
 
-                {pickService === "UI / UX" &&
-                  UIUX.map((item, index) => (
-                    <SwiperSlide key={index}>
-                      <Card data={item} />
-                    </SwiperSlide>
-                  ))}
-              </Swiper>
-            )}
-          </div>
+              {/* UI / UX */}
+              {pickService === "UI / UX" &&
+                UIUX.map((item, index) => (
+                  <SwiperSlide key={index}>
+                    <Card data={item} />
+                  </SwiperSlide>
+                ))}
+            </Swiper>
+          )}
         </div>
       </div>
     </div>

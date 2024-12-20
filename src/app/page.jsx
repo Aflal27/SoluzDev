@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Commitment from "@/components/Commitment";
+import Contect from "@/components/Contect";
 import Footer from "@/components/Footer";
 
 import Founters from "@/components/Founters";
@@ -45,6 +46,11 @@ export default function Home() {
         <div className="mt-[200px]">
           <Why />
         </div>
+
+        <div className="mt-[200px]">
+          <Contect />
+        </div>
+
         <div className="">
           <Footer />
         </div>

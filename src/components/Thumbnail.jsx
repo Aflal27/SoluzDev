@@ -1,5 +1,7 @@
+"use client";
 import { Button } from "flowbite-react";
 import React from "react";
+import { Link } from "react-scroll";
 
 export default function Thumbnail() {
   return (
@@ -27,7 +29,13 @@ export default function Thumbnail() {
 
             <div className="">
               <Button className="" gradientDuoTone="purpleToPink">
-                Contect Us
+                <Link
+                  spy={true}
+                  to="ContectUs"
+                  smooth={true}
+                  activeClass="activeClass">
+                  Contect Us
+                </Link>
               </Button>
             </div>
           </div>
