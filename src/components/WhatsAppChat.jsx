@@ -45,7 +45,7 @@ export default function WhatsAppChat() {
           </div>
           <div className="p-3">
             <a
-              href="https://wa.me/0750241025?text=Hi,%20I%20need%20help%20with%20your%20services."
+              href="https://wa.me/94750241025?text=Hi,%20I%20need%20help%20with%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white text-sm px-4 py-2 rounded-lg w-full block text-center hover:bg-green-600 transition">
