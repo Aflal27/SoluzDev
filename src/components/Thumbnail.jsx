@@ -31,10 +31,10 @@ export default function Thumbnail() {
               <Button className="" gradientDuoTone="purpleToPink">
                 <Link
                   spy={true}
-                  to="ContectUs"
+                  to="ContactUs"
                   smooth={true}
                   activeClass="activeClass">
-                  Contect Us
+                  Contact Us
                 </Link>
               </Button>
             </div>

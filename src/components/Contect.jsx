@@ -13,7 +13,7 @@ export default function Contect() {
 
   return (
     <div
-      id="ContectUs"
+      id="ContactUs"
       className="  flex flex-col gap-5 md:flex-row items-center p-5 justify-center mx-auto max-w-5xl ">
       {/* Left */}
       <div className="flex flex-col w-full">

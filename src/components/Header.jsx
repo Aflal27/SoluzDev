@@ -4,15 +4,19 @@ import { Link } from "react-scroll";
 
 export default function Header() {
   return (
-    <div className=" shadow-md  z-10 bg-gradient-to-r from-white form-10% via-blue-200 to-blue-300   p-4  flex items-center justify-between rounded-b-xl  ">
-      <div className=" ">
-        <p>Logo</p>
+    <div className="shadow-md z-10 bg-gradient-to-r from-white via-blue-200 to-blue-300 p-4 flex items-center justify-between rounded-b-xl">
+      {/* Logo */}
+      <div title="Logo">
+        <p className="text-xl font-bold cursor-pointer hover:text-blue-500 transition">
+          Logo
+        </p>
       </div>
 
-      <div className="  flex items-center gap-3">
-        <div className=" hidden md:flex items-center gap-4">
+      {/* Navigation Menu */}
+      <div className="flex items-center gap-3">
+        <div className="hidden md:flex items-center gap-4">
           <Link
-            className=" cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-blue-500 transition"
             spy={true}
             to="Intro"
             smooth={true}
@@ -20,7 +24,7 @@ export default function Header() {
             Home
           </Link>
           <Link
-            className=" cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-blue-500 transition"
             spy={true}
             to="Price"
             smooth={true}
@@ -28,7 +32,7 @@ export default function Header() {
             Price
           </Link>
           <Link
-            className=" cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-blue-500 transition"
             spy={true}
             to="Portfolio"
             smooth={true}
@@ -36,7 +40,7 @@ export default function Header() {
             Portfolio
           </Link>
           <Link
-            className=" cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-blue-500 transition"
             spy={true}
             to="About"
             smooth={true}
@@ -44,7 +48,7 @@ export default function Header() {
             About
           </Link>
           <Link
-            className=" cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-blue-500 transition"
             spy={true}
             to="WhyUs"
             smooth={true}
@@ -53,14 +57,17 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="">
-          <button className=" rounded-full bg-white px-2 py-1 cursor-pointer hover:bg-gradient-to-r from-blue-500 form-10% via-blue-200 to-blue-300 transition duration-300 hover:scale-110 hover:shadow-lg z-10">
+        {/* Contact Us Button */}
+        <div>
+          <button
+            className="rounded-full bg-white px-4 py-2 cursor-pointer hover:bg-gradient-to-r from-blue-500 via-blue-200 to-blue-300 transition duration-300 hover:scale-110 hover:shadow-lg z-10"
+            aria-label="Contact Us">
             <Link
               spy={true}
-              to="ContectUs"
+              to="ContactUs"
               smooth={true}
               activeClass="activeClass">
-              Contect Us
+              Contact Us
             </Link>
           </button>
         </div>
