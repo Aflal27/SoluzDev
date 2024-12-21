@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` antialiased bg-slate-100  `}>
+      <body className={` antialiased bg-slate-100  overflow-x-hidden`}>
         {children}
         <WhatsAppChat />
       </body>
